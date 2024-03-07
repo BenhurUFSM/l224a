@@ -18,7 +18,7 @@ O e-mail pode ser usado para o envio de perguntas, exercícios, reclamações, s
 
 Esta página concentrará os assuntos vistos em aula, a descrição de exercícios e trabalhos, avaliações, etc. Ela será atualizada durante todo o semestre. Ela é o canal oficial de informações sobre a disciplina. Todos os alunos devem olhar o que está aqui periodicamente (recomendo habilitar notificações no github).
 
-A disciplina aborda a solução de problemas de programação baseados em Estruturas de Dados.
+A disciplina aborda a solução de problemas de programação baseada em estruturas de dados.
 A disciplina é bastante prática, e exige que os alunos se dediquem bastante e desenvolvam trabalhos práticos.
 Para realizar essa prática, é necessário acesso a um computador e a um ambiente de desenvolvimento de programas, com (pelo menos) um editor de textos e um compilador C.
 A universidade dispõe de laboratórios com computadores para acesso aos alunos, com todo o software necessário instalado; consulte o NCC caso necessite.
