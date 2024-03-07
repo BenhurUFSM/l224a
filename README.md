@@ -57,3 +57,6 @@ Os assuntos vistos em aula serão listados aqui.
 | ----: | --------: | :-----------
 |    T1 |           | breve
 
+## Notas
+
+As avaliações e outras anotações individuais serão colocadas na [planilha](https://docs.google.com/spreadsheets/d/1BGEaOYPyZOYz1gyax0rG7qGGxqAYxhHR_HY6Gl8r2eE/edit?usp=sharing).
