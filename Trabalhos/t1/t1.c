@@ -5,6 +5,7 @@
 // Você deve alterar este arquivo colocando seu nome na linha acima, e nas linhas 
 // delimitadas por comentários indicativos. O restante do arquivo não deve ser
 // alterado para implementar a parte I do trabalho.
+// Pode adicionar includes também.
 
 #include <stdio.h>
 #include <stdbool.h>
