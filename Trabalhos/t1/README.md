@@ -1,20 +1,22 @@
 ## t1 - triângulos - revisão de lab I
 
-Esta descrição está incompleta.
-
 Você deve fazer um programa que lê e classifica um grupo de triângulos.
 
 ### parte I - sem arquivo nem alocação dinâmica
 
-O programa deve ser feito usando o esqueleto fornecido, sem alterar o código marcado como não sendo alterável.
+O programa deve ser feito completando o [esqueleto fornecido](t1p1.c), sem alterar o código marcado como não sendo alterável.
 
 ### parte II - com arquivo
 
-Altere o programa para que os triângulos sejam lidos a partir de um arquivo. Não altere o que é lido, somente de onde. O arquivo deve conter exatamente o que é digitado na parte I.
-Altere a função de leitura para receber um `FILE *` que representa o arquivo de onde os dados serão lidos.
+Altere o programa (renomeie para `t1p2.c`) para que os triângulos sejam lidos a partir de um arquivo. Não altere o que é lido, somente de onde. O arquivo deve conter exatamente o que é digitado na parte I (o número de triângulos seguido de 3 lados para cada um).
+Altere as funções de leitura para receber um `FILE *` que representa o arquivo de onde os dados serão lidos.
 O programa deve ler o nome do arquivo no início, e informar ao usuário caso não consiga abrir o arquivo para leitura.
 
+O programa deve informar caso haja uma discrepância entre o número de triângulos informado no início e o número encontrado no arquivo. No caso de haver mais triângulos que o número informado, basta dizer que existem mais triângulos que o informado, não é necessário ler todo o arquivo.
+
 ### parte III - com alocação dinâmica
+
+O programa não deve mais ter um limite no número de triângulos (a não ser que não consiga alocar memória suficiente).
 
 O tipo que representa um vetor de triângulos deve ser alterado para:
 ```c
