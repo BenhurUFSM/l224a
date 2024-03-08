@@ -55,7 +55,7 @@ Os assuntos vistos em aula serão listados aqui.
 
 |     N |     prazo | descrição
 | ----: | --------: | :-----------
-|    T1 |           | breve
+|    T1 |     18mar | [t1](Trabalhos/t1)
 
 ## Notas
 
