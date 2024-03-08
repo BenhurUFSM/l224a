@@ -16,10 +16,11 @@ O programa deve ler o nome do arquivo no início, e informar ao usuário caso n�
 
 ### parte III - com alocação dinâmica
 
-Deve ser criado um novo tipo para representar o vetor de triângulos, que deve ser declarado assim:
+O tipo que representa um vetor de triângulos deve ser alterado para:
 ```c
 typedef struct {
-    int n_triangulos;      // número de triangulos no vetor
+    int max_triangulos;    // número máximo de triângulos que cabe no vetor
+    int n_triangulos;      // número de triangulos atualmente no vetor
     triangulo *triangulos; // ponteiro para o primeiro triângulo do vetor
 } vetor_de_triangulos;
 ```
@@ -27,4 +28,6 @@ A estrutura acima e a região de memória que conterá os triângulos (apontada 
 ```c
 vetor_de_triangulos *aloca_vetor_de_triangulos(int n_triangulos);
 ```
-Essa função retorna o vetor alocado (no qual os triângulos não estão inicializados) ou `NULL` caso a alocação não seja possível. Deve ser corretamente tratado o caso em que uma das alocações é bem sucedida e a outra não.
+Essa função retorna o vetor alocado (com espaço para o número de triângulos informado mas com 0 triângulos inicializados) ou `NULL` caso a alocação não seja possível. Deve ser corretamente tratado o caso em que uma das alocações é bem sucedida e a outra não.
+
+O restante do programa deve ser alterado para funcionar de acordo com esse novo tipo.
