@@ -25,7 +25,7 @@ O tipo que representa um vetor de triângulos deve ser alterado para:
 ```c
 typedef struct {
     int max_triangulos;    // número máximo de triângulos que cabe no vetor
-    int n_triangulos;      // número de triangulos atualmente no vetor
+    int n_triangulos;      // número de triângulos atualmente no vetor
     triangulo *triangulos; // ponteiro para o primeiro triângulo do vetor
 } vetor_de_triangulos;
 ```
