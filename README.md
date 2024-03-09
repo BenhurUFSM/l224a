@@ -1,6 +1,6 @@
 # l224a
 
-Disciplina de Laboratório de Programação II, 1° semestre 2024, UFSM
+Disciplina de Laboratório de Programação II, 1° semestre de 2024
 ELC1067 DLSC/CT/UFSM\
 professor: Benhur Stein ([benhur+l224a@inf.ufsm.br](mailto:benhur%2bl224a@inf.ufsm.br))\
 terças e quintas, 10h30\
@@ -14,7 +14,7 @@ Os canais de comunicação entre o professor e os alunos são:
 - e-mail (ver endereço acima),
 - conversa individual, manda um mail que marcamos.
 
-O e-mail pode ser usado para o envio de perguntas, exercícios, reclamações, sugestões, críticas e o que mais for, durante todo o período em que durar a disciplina. Se não for assunto relacionado à disciplina, usa só `benhur@inf.ufsm.br`.
+O e-mail pode ser usado para o envio de perguntas, exercícios, reclamações, sugestões, críticas e o que mais for, durante todo o período em que durar a disciplina.
 
 Esta página concentrará os assuntos vistos em aula, a descrição de exercícios e trabalhos, avaliações, etc. Ela será atualizada durante todo o semestre. Ela é o canal oficial de informações sobre a disciplina. Todos os alunos devem olhar o que está aqui periodicamente (recomendo habilitar notificações no github).
 
@@ -34,9 +34,10 @@ Os trabalhos entregues não serão imediatamente pontuados, mas comentados de fo
 Espera-se que esses comentários sejam aproveitados para gerar novas e melhores versões dos programas, como forma de aprendizagem. 
 Os programas podem ser alterados e reenviados ao professor, caso restem dúvidas.
 
-A avaliação será realizada no final do semestre. Para isso, cada aluno deverá entregar a versão final de um subconjunto dos trabalhos desenvolvidos (a ser definido), juntamente com uma auto-avaliação descrevendo o seu desenvolvimento durante o semestre, contendo uma sugestão de nota.
-Cada aluno será entrevistado individualmente pelo professor. A nota final será então calculada, juntando:
-- o estado de cada trabalho na data de entrega
+A avaliação será realizada no final do semestre.
+Para isso, cada aluno deverá entregar a versão final de um subconjunto dos trabalhos (a ser definido), juntamente com uma auto-avaliação descrevendo o seu desenvolvimento durante o semestre, contendo uma sugestão de nota.
+Cada aluno será entrevistado individualmente pelo professor. A nota final será então calculada, considerando:
+- o estado de cada trabalho na data definida de entrega
 - a versão final dos trabalhos
 - a auto-avaliação
 - a entrevista.
@@ -57,6 +58,6 @@ Os assuntos vistos em aula serão listados aqui.
 | ----: | --------: | :-----------
 |    T1 |     18mar | [t1](Trabalhos/t1)
 
-## Notas
+## Avaliação
 
 As avaliações e outras anotações individuais serão colocadas na [planilha](https://docs.google.com/spreadsheets/d/1BGEaOYPyZOYz1gyax0rG7qGGxqAYxhHR_HY6Gl8r2eE/edit?usp=sharing).
