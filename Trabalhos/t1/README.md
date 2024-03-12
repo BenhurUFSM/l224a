@@ -9,6 +9,12 @@ Leve dúvidas para a aula, envie por mail, peça ajuda, não copie, não desista
 
 O programa deve ser feito completando o [esqueleto fornecido](t1.c), sem alterar o código marcado como não sendo alterável.
 
+**Errata:** Correção de bug na passagem do vetor "contadores" para a função "conta_triangulos":
+```c
+  /* Antes  */ conta_triangulos(&vetor, &contadores);
+  /* Depois */ conta_triangulos(&vetor, contadores);
+```
+
 ### parte II - com arquivo
 
 Altere o programa para que os triângulos sejam lidos a partir de um arquivo. Não altere o que é lido, somente de onde. O arquivo deve conter exatamente o que é digitado na parte I (o número de triângulos seguido de 3 lados para cada um).

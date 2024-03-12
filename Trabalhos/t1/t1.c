@@ -59,7 +59,7 @@ int main()
 
   le_triangulos(&vetor);
   classifica_triangulos(&vetor);
-  conta_triangulos(&vetor, &contadores);
+  conta_triangulos(&vetor, contadores);
 
   printf("Classificação dos triângulos:\n");
   printf("  %d equiláteros\n", contadores[1]);
