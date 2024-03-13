@@ -23,6 +23,15 @@ O programa deve ler o nome do arquivo no início, e informar ao usuário caso n�
 
 O programa deve informar caso haja uma discrepância entre o número de triângulos informado no início e o número encontrado no arquivo. No caso de haver mais triângulos que o número informado, basta dizer que existem mais triângulos que o informado, não é necessário ler todo o arquivo.
 
+O arquivo de triângulos poderia conter, por exemplo:
+```
+4
+1.5 1.5 1.5
+3 4 5
+2 3.25 3.25
+1 4 2.9
+```
+
 ### parte III - com alocação dinâmica
 
 O programa não deve mais ter um limite no número de triângulos (a não ser que não consiga alocar memória suficiente).
