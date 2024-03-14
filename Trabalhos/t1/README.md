@@ -5,6 +5,10 @@ Você deve fazer um programa que lê e classifica um grupo de triângulos.
 O objetivo do trabalho é identificar assuntos que devem ser revisados e reforçados no início da disciplina.
 Leve dúvidas para a aula, envie por mail, peça ajuda, não copie, não desista.
 
+**Dicas / esclarecimentos**:
+
+- o `bool` de retorno da função `le_triangulo` é para o caso de a leitura não ser bem sucedida (fim do arquivo ou dado inválido no arquivo), e não para o caso de ser lido um não-triângulo. Como o programa está preparado para o caso de não-triângulos, um dado desse tipo é esperado pelo programa.
+
 ### parte I - sem arquivo nem alocação dinâmica
 
 O programa deve ser feito completando o [esqueleto fornecido](t1.c), sem alterar o código marcado como não sendo alterável.
