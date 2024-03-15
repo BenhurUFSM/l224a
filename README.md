@@ -51,6 +51,7 @@ Os assuntos vistos em aula serão listados aqui.
 |    N |   data | assunto
 | ---: | -----: | :--------
 |    1 |  12mar | apresentação, revisão de lab I, [teste 1](https://docs.google.com/forms/d/e/1FAIpQLSew-I-jIvi2UIuuGHTx5qRDSQVe3lwrTpF4dRiKr3Ljpxgj8g/viewform)([respostas](Aulas/a1.md)), trabalho 1
+|    2 |  14mar | [revisão 2](Aulas/a2.md)
 
 ## Exercícios, trabalhos
 
