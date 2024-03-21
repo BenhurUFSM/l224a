@@ -1,0 +1,208 @@
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+// em um vetor de tamanho fixo, local a uma função
+void f1() {
+  int v[10];
+  int t = 0;
+  // ...
+  for (int i = 0; i < 10; i++) {
+    t += v[i];
+  }
+  // ...
+}
+
+// -----  -----  -----  -----  -----  -----
+
+// em um vetor de tamanho não fixo, recebido por uma função
+void f2(int n) {
+  int v[n];
+  int t = 0;
+  // ...
+  for (int i = 0; i < n; i++) {
+    t += v[i];
+  }
+  // ...
+}
+
+// -----  -----  -----  -----  -----  -----
+
+// em um vetor de tamanho não fixo, recebido por uma função, alocação por malloc
+void termina_com_erro(char *);
+void f3(int n) {
+  int *v;
+  int t = 0;
+  v = malloc(n * sizeof(*v));
+  if (v == NULL) {
+    termina_com_erro("alocação");
+  }
+  // ...
+  for (int i = 0; i < n; i++) {
+    t += v[i];
+  }
+  // ...
+  free(v);
+}
+
+// -----  -----  -----  -----  -----  -----
+
+// com uma função para fazer o cálculo
+int soma1(int n, int v[n]) {
+  int t;
+  for (int i = 0; i < n; i++) {
+    t += v[i];
+  }
+  return t;
+}
+void f1b() {
+  int v[10];
+  int t = 0;
+  // ...
+  t = soma1(10, v);
+  // ...
+}
+void f2b(int n) {
+  int v[n];
+  int t;
+  // ...
+  t = soma1(n, v);
+  // ...
+}
+void f3b(int n) {
+  int *v;
+  int t;
+  v = malloc(n * sizeof(*v));
+  if (v == NULL) {
+    termina_com_erro("alocação");
+  }
+  // ...
+  t = soma1(n, v);
+  // ...
+  free(v);
+}
+
+// -----  -----  -----  -----  -----  -----
+
+// tentativa com função auxiliar que cria e inicializa o vetor a partir de um
+// arquivo
+int *a1(int n, char *nome) {
+  int v[n];
+  FILE *arq;
+
+  arq = fopen(nome, "r");
+  if (arq == NULL)
+    return NULL;
+
+  for (int i = 0; i < n; i++) {
+    if (fscanf(arq, "%d", &v[i]) != 1) {
+      fclose(arq);
+      return NULL;
+    }
+  }
+
+  fclose(arq);
+  return v; // erro, a variável v é local, vai ser desalocada, não se pode
+            //   retornar um ponteiro pra ela
+}
+void f2c(int n) {
+  int *v;
+  int t = 0;
+  // ...
+  v = a1(n, "nome");
+  if (v == NULL)
+    termina_com_erro("leitura");
+  t = soma1(n, v);
+  // ...
+}
+
+// -----  -----  -----  -----  -----  -----
+
+// com função auxiliar que aloca dinamicamente e inicializa o vetor a partir de
+// um arquivo
+int *a1b(int n, char *nome) {
+  int *v;
+  FILE *arq;
+
+  arq = fopen(nome, "r");
+  if (arq == NULL)
+    return NULL;
+
+  v = malloc(n * sizeof(*v));
+  if (v == NULL) {
+    fclose(arq);
+    return NULL;
+  }
+
+  for (int i = 0; i < n; i++) {
+    if (fscanf(arq, "%d", &v[i]) != 1) {
+      free(v);
+      fclose(arq);
+      return NULL;
+    }
+  }
+
+  fclose(arq);
+  return v;
+}
+void f3c(int n) {
+  int *v;
+  int t = 0;
+  // ...
+  v = a1(n, "nome");
+  if (v == NULL)
+    termina_com_erro("leitura");
+  t = soma1(n, v);
+  // ...
+}
+
+// -----  -----  -----  -----  -----  -----
+
+// com alteração do tamanho do vetor (só dá para fazer com malloc e cia)
+#include <assert.h>
+// le para v, a partir da posição pos, n valores do arquivo nome
+bool le(int *v, int pos, int n, char *nome) {
+  FILE *arq;
+
+  arq = fopen(nome, "r");
+  if (arq == NULL)
+    return false;
+
+  for (int i = 0; i < n; i++) {
+    if (fscanf(arq, "%d", &v[i + pos]) != 1) {
+      fclose(arq);
+      return false;
+    }
+  }
+
+  fclose(arq);
+  return true;
+}
+void f4() {
+  int *v;
+  int t = 0;
+  int n;
+  // ...
+  n = 10; // tem 10 valores no arquivo 1
+  v = malloc(n * sizeof(*v));
+  assert(v != NULL);
+
+  le(v, 0, n, "nome"); // le para v, no posição 0 n valores do arq nome
+  // ...
+
+  int n2 = 20; // tem mais 20 valores no arquivo 2
+  int *nv;
+  nv = realloc(v, (n + n2) * sizeof(*v));
+  if (nv == NULL) {
+    // não conseguiu realocar, o vetor continua em v
+    termina_com_erro("realocação");
+  } else {
+    // conseguiu realocar, o vetor novo tá em nv, v é inválido
+    v = nv;
+  }
+  le(v, n, n2, "nome2");
+
+  // ...
+  t = soma1(n + n2, v);
+  // ...
+}
