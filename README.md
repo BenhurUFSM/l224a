@@ -54,6 +54,7 @@ Os assuntos vistos em aula serão listados aqui.
 |    2 |  14mar | [revisão 2](Aulas/a2.md)
 |    3 |  19mar | [revisão 3](Aulas/a3.md)
 |    4 |  21mar | [exemplo de implementação do t1.c](Trabalhos/t1/t1r.c)
+|    5 |  26mar | [tipos abstratos de dados](Aulas/a5.md)
 
 ## Exercícios, trabalhos
 
