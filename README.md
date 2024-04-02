@@ -56,12 +56,14 @@ Os assuntos vistos em aula serão listados aqui.
 |    4 |  21mar | [exemplo de implementação do t1.c](Trabalhos/t1/t1r.c)
 |    5 |  26mar | [tipos abstratos de dados](Aulas/a5.md)
 |    6 |  28mar | [listas](Aulas/a6.md)
+|    7 |   2abr | [implementação de listas - alocação contígua](Aulas/a7.md)
 
 ## Exercícios, trabalhos
 
 |     N |     prazo | descrição
 | ----: | --------: | :-----------
 |    T1 |     18mar | [t1](Trabalhos/t1)
+|    T2 |           | Exercício no final da aula 7.
 
 ## Avaliação
 
