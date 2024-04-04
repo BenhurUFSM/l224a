@@ -57,6 +57,7 @@ Os assuntos vistos em aula serão listados aqui.
 |    5 |  26mar | [tipos abstratos de dados](Aulas/a5.md)
 |    6 |  28mar | [listas](Aulas/a6.md)
 |    7 |   2abr | [implementação de listas - alocação contígua](Aulas/a7.md)
+|    8 |   4abr | apresentação do t2
 
 ## Exercícios, trabalhos
 
