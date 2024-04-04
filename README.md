@@ -63,7 +63,7 @@ Os assuntos vistos em aula serão listados aqui.
 |     N |     prazo | descrição
 | ----: | --------: | :-----------
 |    T1 |     18mar | [t1](Trabalhos/t1)
-|    T2 |           | Exercício no final da aula 7.
+|    T2 |           | [a cobra](Trabalhos/t2)
 
 ## Avaliação
 
