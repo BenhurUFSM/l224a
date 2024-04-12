@@ -240,6 +240,14 @@ void inicializa_jogo(estado *j) {
   j->estado = normal;
 }
 
+void finaliza_jogo(estado *j) {
+  tela_fim();
+  tecla_fim();
+
+  fila_destroi(j->aninha.corpo);
+  fila_destroi(j->obstaculos);
+}
+
 void desenha_tela(estado *j) {
   tela_limpa();
 
@@ -323,9 +331,7 @@ int main(void) {
     movimenta(&jogo);
   }
 
-  // encerra a tela gráfica
-  tela_fim();
-  tecla_fim();
+  finaliza_jogo(&jogo);
 
   return 0;
 }
