@@ -16,6 +16,8 @@ Para evitar situações extremas, considere uma alocação mínima (uns 10 eleme
 
 Coloque a implementação de fila em vetor circular em um novo arquivo, `fila_vc.c`.
 
+Dica: implemente cada uma das alterações itemizadas acima por vez. Implementa, testa, ajeita, testa de novo, ajeita mais, até estar ok. Descansa e implementa o próximo.
+
 ### Parte II
 
 Reimplemente a fila como uma lista encadeada.
@@ -27,4 +29,5 @@ Coloque a implementação de fila em lista encadeada em um novo arquivo, `fila_l
 
 Meça e compare o desempenho das 3 implementações de fila, usando o programa fornecido.
 
-O programa ainda não foi fornecido.
+O programa é o mede_fila.c.
+Para cada fila, testa com pelo menos 2 tamanhos de dados, um pequeno (4 bytes) e um maior (64 bytes).
