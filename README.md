@@ -59,6 +59,7 @@ Os assuntos vistos em aula serão listados aqui.
 |    7 |   2abr | [implementação de listas - alocação contígua](Aulas/a7.md)
 |    8 |   4abr | apresentação do t2
 |    9 |   9abr | [listas encadeadas](Aulas/a9.md)
+|   10 |  11abr | [listas encadeadas, alocação individual](Aulas/a10.md)
 
 ## Exercícios, trabalhos
 
