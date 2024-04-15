@@ -3,6 +3,7 @@
 Disciplina de Laboratório de Programação II, 1° semestre de 2024
 ELC1067 DLSC/CT/UFSM\
 professor: Benhur Stein ([benhur+l224a@inf.ufsm.br](mailto:benhur%2bl224a@inf.ufsm.br))\
+monitor: Davi Machado ([ddmachado@inf.ufsm.br](mailto:ddmachado@inf.ufsm.br))\
 terças e quintas, 10h30\
 sala 334, prédio 7 (principal do CT)\
 
