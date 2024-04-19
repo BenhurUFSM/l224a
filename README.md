@@ -61,13 +61,15 @@ Os assuntos vistos em aula serão listados aqui.
 |    8 |   4abr | apresentação do t2
 |    9 |   9abr | [listas encadeadas](Aulas/a9.md)
 |   10 |  11abr | [listas encadeadas, alocação individual](Aulas/a10.md)
+|   11 |  16abr | mais listas
+|   12 |  18abr | [recursão](Aulas/a12.md)
 
 ## Exercícios, trabalhos
 
 |     N |     prazo | descrição
 | ----: | --------: | :-----------
 |    T1 |     18mar | [t1](Trabalhos/t1)
-|    T2 |           | [a cobra](Trabalhos/t2)
+|    T2 |     23abr | [a cobra](Trabalhos/t2)
 
 ## Avaliação
 
