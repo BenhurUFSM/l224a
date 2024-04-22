@@ -25,6 +25,20 @@ A interface da fila continua a mesma (`fila.h` não muda).
 
 Coloque a implementação de fila em lista encadeada em um novo arquivo, `fila_le.c`.
 
+Na implementação com lista encadeada, não precisa implementar suporte a percurso que inicia no final da lista.
+A função fila_inicia_percurso pode iniciar assim:
+```c
+void fila_inicia_percurso(Fila f, int p)
+{
+  if (p < 0) {
+    fprintf(stderr, "Sem suporte a percurso invertido na fila.\n");
+    // faz o que tiver que fazer para que o percurso seja considerado terminado
+    return;
+  }
+  // faz o que tiver que fazer para iniciar o percurso
+}
+```
+
 ### Parte III (última)
 
 Meça e compare o desempenho das 3 implementações de fila, usando o programa fornecido.
