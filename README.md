@@ -63,6 +63,7 @@ Os assuntos vistos em aula serão listados aqui.
 |   10 |  11abr | [listas encadeadas, alocação individual](Aulas/a10.md)
 |   11 |  16abr | mais listas
 |   12 |  18abr | [recursão](Aulas/a12.md)
+|   13 |  23abr | [tabela *hash*](Aulas/a13.md)
 
 ## Exercícios, trabalhos
 
