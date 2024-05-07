@@ -64,6 +64,8 @@ Os assuntos vistos em aula serão listados aqui.
 |   11 |  16abr | mais listas
 |   12 |  18abr | [recursão](Aulas/a12.md)
 |   13 |  23abr | [tabela *hash*](Aulas/a13.md)
+|   14 |  25abr | [árvores](Aulas/a14.md)
+|   15 |  30abr | [exercícios](Aulas/a15.md)
 
 ## Exercícios, trabalhos
 
