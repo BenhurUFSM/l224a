@@ -66,6 +66,7 @@ Os assuntos vistos em aula serão listados aqui.
 |   13 |  23abr | [tabela *hash*](Aulas/a13.md)
 |   14 |  25abr | [árvores](Aulas/a14.md)
 |   15 |  30abr | [árvore binária de busca](Aulas/a15.md)
+|   16 |  21mai | [árvore binária de busca AVL](Aulas/a16.md)
 
 ## Exercícios, trabalhos
 
