@@ -67,6 +67,8 @@ Os assuntos vistos em aula serão listados aqui.
 |   14 |  25abr | [árvores](Aulas/a14.md)
 |   15 |  30abr | [árvore binária de busca](Aulas/a15.md)
 |   16 |  21mai | [árvore binária de busca AVL](Aulas/a16.md)
+|   17 |  23mai | árvore binária de busca AVL
+|   18 |  28mai | T3
 
 ## Exercícios, trabalhos
 
@@ -74,6 +76,7 @@ Os assuntos vistos em aula serão listados aqui.
 | ----: | --------: | :-----------
 |    T1 |     18mar | [t1](Trabalhos/t1)
 |    T2 |     23abr | [a cobra](Trabalhos/t2)
+|    T3 |           | [a árvore](Trabalhos/t3)
 
 ## Avaliação
 
