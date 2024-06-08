@@ -70,6 +70,7 @@ Os assuntos vistos em aula serão listados aqui.
 |   17 |  23mai | árvore binária de busca AVL
 |   18 |  28mai | T3
 |   19 |   4jun | T3, tela gráfica
+|   20 |   6jun | [fila de prioridade, árvore *heap*](Aulas/a20.md)
 
 ## Exercícios, trabalhos
 
