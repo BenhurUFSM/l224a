@@ -158,7 +158,7 @@ static void tela_prepara_fonte(int tam)
 void tela_texto(float x, float y, int tam, int c, char t[])
 {
   tela_prepara_fonte(tam);
-  al_draw_text(fonte, cores[c], x, y-tam/2, ALLEGRO_ALIGN_CENTRE, t);
+  al_draw_text(fonte, cores[c], x, y - tam / 2.0, ALLEGRO_ALIGN_CENTRE, t);
 }
 
 void tela_texto_esq(float x, float y, int tam, int c, char t[])
@@ -171,6 +171,18 @@ void tela_texto_dir(float x, float y, int tam, int c, char t[])
 {
   tela_prepara_fonte(tam);
   al_draw_text(fonte, cores[c], x, y, ALLEGRO_ALIGN_LEFT, t);
+}
+
+void tela_retangulo_texto(float x, float y, int tam, char t[],
+                          float *px1, float *py1, float *px2, float *py2)
+{
+  tela_prepara_fonte(tam);
+  int rx, ry, rw, rh;
+  al_get_text_dimensions(fonte, t, &rx, &ry, &rw, &rh);
+  *px1 = x - rx - rw / 2.0;
+  *py1 = y - ry - 1;
+  *px2 = *px1 + rw;
+  *py2 = *py1 + rh;
 }
 
 void tela_rato_pos(int *px, int *py)

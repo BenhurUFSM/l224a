@@ -54,9 +54,11 @@ int main(void)
 
     // escreve o valor da tecla e do relógio no canto da tela
     char txt[100];
-    sprintf(txt, "♠♣♥♦%c%.1f", tec, tempo);
-    tela_texto_esq(450, 245, 20, fucsia, "░░");
-    tela_texto_esq(450, 245, 20, amarelo, txt);
+    sprintf(txt, "%c%.1f", tec, tempo);
+    tela_texto(150, 245, 20, amarelo, txt);
+    float x1, y1, x2, y2;
+    tela_retangulo_texto(150, 245, 20, txt, &x1, &y1, &x2, &y2);
+    tela_retangulo(x1, y1, x2, y2, 1, vermelho, transparente);
 
     // faz aparecer na tela o que foi desenhado
     tela_atualiza();

@@ -68,7 +68,10 @@ void tela_texto_esq(float x, float y, int tam, int c, char t[]);
 // x, y coordenadas do inicio do texto, tam tamanho das letras, c cor, t texto
 void tela_texto_dir(float x, float y, int tam, int c, char t[]);
 
-
+// retorna (através dos ponteiros) as coordenadas de um retângulo que contorna o texto,
+//   se ele for desenhado usando tela_texto
+void tela_retangulo_texto(float x, float y, int tam, char t[],
+                          float *px1, float *py1, float *px2, float *py2);
 
 // CORES
 
