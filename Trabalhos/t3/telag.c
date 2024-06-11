@@ -179,8 +179,8 @@ void tela_retangulo_texto(float x, float y, int tam, char t[],
   tela_prepara_fonte(tam);
   int rx, ry, rw, rh;
   al_get_text_dimensions(fonte, t, &rx, &ry, &rw, &rh);
-  *px1 = x - rx - rw / 2.0;
-  *py1 = y - ry - 1;
+  *px1 = x + rx - rw / 2.0;
+  *py1 = y + ry - tam / 2;
   *px2 = *px1 + rw;
   *py2 = *py1 + rh;
 }
