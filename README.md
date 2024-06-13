@@ -72,6 +72,8 @@ Os assuntos vistos em aula serão listados aqui.
 |   19 |   4jun | T3, tela gráfica
 |   20 |   6jun | [fila de prioridade, árvore *heap*](Aulas/a20.md)
 |   21 |  11jun | desenvolvimento do T3
+|   22 |  13jun | [grafos](Aulas/a22.md)
+
 
 ## Exercícios, trabalhos
 
