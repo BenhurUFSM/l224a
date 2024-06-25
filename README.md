@@ -75,7 +75,7 @@ Os assuntos vistos em aula serão listados aqui.
 |   22 |  13jun | [grafos](Aulas/a22.md)
 |   23 |  18jun | [grafos, cont.](Aulas/a23.md)
 |   24 |  20jun | [grafos, cont.](Aulas/a24.md)
-
+|   25 |  25jun | [grafos, cont.](Aulas/a25.md)
 
 ## Exercícios, trabalhos
 
@@ -84,6 +84,7 @@ Os assuntos vistos em aula serão listados aqui.
 |    T1 |     18mar | [t1](Trabalhos/t1)
 |    T2 |     23abr | [a cobra](Trabalhos/t2)
 |    T3 |           | [a árvore](Trabalhos/t3)
+|    T4 |           | [a maçã](Trabalhos/t4)
 
 ## Avaliação
 
