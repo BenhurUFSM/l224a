@@ -7,6 +7,8 @@ monitor: Davi Machado ([ddmachado@inf.ufsm.br](mailto:ddmachado@inf.ufsm.br))\
 terças e quintas, 10h30\
 sala 334, prédio 7 (principal do CT)\
 
+**pelo calendário, dia 2 de julho tem horário de sexta-feira, não terá aula de laboratório II**
+
 ## Desenvolvimento da disciplina
 
 Os canais de comunicação entre o professor e os alunos são:
