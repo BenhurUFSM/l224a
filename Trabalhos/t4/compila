@@ -1,0 +1,2 @@
+gcc -g -Wall -o cobra rede.c cobra.c grafo.c tecla.c tela.c fila.c main.c -lm
+gcc -g -Wall -o treina rede.c cobra.c grafo.c tecla.c tela.c fila.c rede-treinamento.c -lm
