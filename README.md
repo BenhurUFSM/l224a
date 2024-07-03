@@ -78,6 +78,7 @@ Os assuntos vistos em aula serão listados aqui.
 |   23 |  18jun | [grafos, cont.](Aulas/a23.md)
 |   24 |  20jun | [grafos, cont.](Aulas/a24.md)
 |   25 |  25jun | [grafos, cont.](Aulas/a25.md)
+|   26 |  27jun | exercícios
 
 ## Exercícios, trabalhos
 
