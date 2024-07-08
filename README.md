@@ -88,6 +88,7 @@ Os assuntos vistos em aula serão listados aqui.
 |    T2 |     23abr | [a cobra](Trabalhos/t2)
 |    T3 |           | [a árvore](Trabalhos/t3)
 |    T4 |           | [a maçã](Trabalhos/t4)
+| final | 9jul a 2ago | [entrega final](final.md)
 
 ## Avaliação
 
