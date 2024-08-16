@@ -7,7 +7,15 @@ monitor: Davi Machado ([ddmachado@inf.ufsm.br](mailto:ddmachado@inf.ufsm.br))\
 terças e quintas, 10h30\
 sala 334, prédio 7 (principal do CT)\
 
-**pelo calendário, dia 2 de julho tem horário de sexta-feira, não terá aula de laboratório II**
+## Exame será dia 22 de agosto, 10h30min, sala 376 do anexo B do CT
+
+Alunos em exame:
+| Nome | Média |
+| :--- | ---: |
+| Josias Augusto Kautzmann | 6,0 |
+| Luiza Manoelle Silva Dos Santos | 6,0 |
+| Maria Rita Piekas | 5,8 |
+| Nathália De Almeida Zófoli | 5,8 |
 
 ## Desenvolvimento da disciplina
 
